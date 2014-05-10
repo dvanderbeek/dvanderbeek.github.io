@@ -1,7 +1,9 @@
 <h2>Header</h2>
 
 {% for page in site.pages %}
-  <li>({{ page.title }})[{{ page.url }}]</li>
+  <li>
+    <a href="{{ page.url }}">{{ page.title }}</a>
+  </li>
 {% endfor %}
 
 <div>
