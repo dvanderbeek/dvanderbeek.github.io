@@ -1,5 +1,0 @@
-### Header
-
-{{ content }}
-
-Footer
