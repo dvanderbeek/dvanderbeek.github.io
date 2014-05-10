@@ -1,5 +1,9 @@
 <h2>Header</h2>
 
+{% for page in site.pages %}
+  <li>({{ page.title }})[{{ page.url }}]</li>
+{% endfor %}
+
 <div>
   {{ content }}
 </div>
